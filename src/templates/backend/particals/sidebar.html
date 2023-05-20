@@ -38,11 +38,11 @@
              data-parent="#accordionSidebar">
             <div class="bg-white py-2 collapse-inner rounded">
                 <h6 class="collapse-header">Product Option:</h6>
-                <a class="collapse-item" href="{% url 'product:variants' %}">Variant</a>
+                {% comment %} <a class="collapse-item" href="{% url 'product:variants' %}">Variant</a> {% endcomment %}
                 <div class="collapse-divider"></div>
                 <h6 class="collapse-header">Product:</h6>
-                <a class="collapse-item" href="{% url 'product:create.product' %}">Create Product</a>
-                <a class="collapse-item" href="{% url 'product:list.product' %}">All Product</a>
+                {% comment %} <a class="collapse-item" href="{% url 'product:create.product' %}">Create Product</a> {% endcomment %}
+                {% comment %} <a class="collapse-item" href="{% url 'product:list.product' %}">All Product</a> {% endcomment %}
             </div>
         </div>
     </li>
